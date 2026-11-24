@@ -40,7 +40,7 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "options": { "port": 4210 },
+          "options": { "proxyConfig": "proxy.conf.mjs", "port": 4210 },
           "configurations": {
             "production": { "buildTarget": "noah-lms:build:production" },
             "development": { "buildTarget": "noah-lms:build:development" }
