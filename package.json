@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 4210",
+    "start": "node scripts/dev.mjs lms 4311",
     "build": "ng build"
   },
   "dependencies": {
